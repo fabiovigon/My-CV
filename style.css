@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.information-column {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid rgb(245, 12, 245);
+    margin-top: 18px;
+}
+
+.information-column img {
+    width: 280px;
+    height: 300px;
+    border: 1px solid rgb(245, 12, 245);
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul {
+    list-style-type: none;
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;    
+    font-size: 16px;
+}
+
+.contact-description a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-description i {
+    color: rgb(245, 12, 245);
+    margin-right: 10px;
+}
+
+.education-description {
+    margin-top: 32px;
+}
+
+.education-description p {
+    color: rgb(245, 12, 245);
+}
+
+.language-description .percent {
+    height: 6px;
+    background-color: rgba(245, 12, 245, 0.664);
+    margin-top: 5px;
+    width: 100%;
+}
+
+.language-description .percent div {
+    height: 6px;
+    background-color: rgb(245, 12, 245);
+}
+
+.language-description .percent.english div {
+    width: 50%;
+
+}
+
+.experiences-column {
+    background-color: #fff;
+    padding: 40px;
+    color: #000;
+}
+
+.experiences-column section{
+    margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+}
+
+.experiences-column .experience {
+    margin-bottom: 14px;
+}
+
+.experiences-column .projects a{
+    text-decoration: none;
+    color: rgb(245, 12, 245);
+}
+
+.experiences-column .last-update {
+    text-align: right;
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 290px;
+        height: 295px;
+    }
+
+    .experiences-column .experience {
+        display: flex;
+    }
+
+    .experiences-column .experience-date p{
+        width: 200px;
+    }
+}
